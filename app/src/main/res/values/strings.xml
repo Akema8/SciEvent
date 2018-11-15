@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">SciEvent</string>
+
+    <string name="all_events">Список мероприятий</string>
+
+    <string name="add_event">Добавить мероприятие</string>
+
+    <string name="edit_event">Редактировать</string>
+
+    <string name="del_event">Удалить</string>
+
+    <string name="my_event">Отслеживаемые</string>
+
+    <string name="tvWriteNameEvent">Введите название мероприятия:</string>
+    <string name="tvWriteDescriptionEvent">Введите краткое описание:</string>
+    <string name="tvWriteDateEvent">Введите дату:</string>
+
+    <string name="addSectionEvent">Добавить секцию</string>
+    <string name="tvWriteSectionName">Введите название секциии:</string>
+    <string name="tvWriteSectionDescription">Введите краткое описание секциии:</string>
+    <string name="tvWriteSectionDate">Введите дату проведение секции:</string>
+
+    <string name="addSubSectionEvent">Добавить подсекции</string>
+    <string name="tvWriteSubSectionName">Введите название подсекциии:</string>
+    <string name="tvWriteSubSectionDescription">Введите описание подсекциии:</string>
+
+
+    <string name="addSchedule">Сохранить расписание</string>
+    <string name="addScheduleSection">Добавить план секции</string>
+    <string name="addScheduleSubsection">Добавить план подсекции</string>
+
+    <string name="tvWriteSchedule">Введите расписание</string>
+    <string name="tvWriteScheduleTime">Введите время:</string>
+    <string name="tvWriteScheduleDescription">Введите описание:</string>
+
+    <string name="tvMyEvent">Мои мероприятия</string>
+
+
+    <string name="SignIn">Войти</string>
+    <string name="Registration">Зарегистрироваться</string>
+    <string name="SignOut">Выход</string>
+
+    <string name="SaveChange">Сохранить изменения</string>
+    <string name="AddSched">Добавить расписание</string>
+
+    <string name="Bookmarks">Закладки</string>
+    <string name="addBookmarks">Добавить в закладки</string>
+
+    <string name="enterEmail">Введите email</string>
+    <string name="enterPass">Введите пароль</string>
+
+
+
+</resources>
+
+
+

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/tvWriteName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvWriteNameEvent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/etNameEvent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvWriteName" />
+
+    <TextView
+        android:id="@+id/tvWriteDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvWriteDescriptionEvent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etNameEvent" />
+
+    <EditText
+        android:id="@+id/etDescriptionEvent"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvWriteDescription" />
+
+    <TextView
+        android:id="@+id/tvWriteDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvWriteDateEvent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etDescriptionEvent" />
+
+
+    <EditText
+        android:id="@+id/etDateEvent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etDescriptionEvent" />
+
+
+    <Button
+        android:id="@+id/btAddSection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/addSectionEvent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etDateEvent" />
+
+    <Button
+        android:id="@+id/btAddSchedule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/addSchedule"
+        app:layout_constraintStart_toEndOf="@id/btAddSection"
+        app:layout_constraintTop_toBottomOf="@id/etDateEvent" />
+
+
+    <TextView
+        android:id="@+id/tvNameSection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvWriteSectionName"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btAddSection" />
+
+    <EditText
+        android:id="@+id/etNameSection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvNameSection" />
+
+    <Button
+        android:id="@+id/btAddSubSection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/addSubSectionEvent"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etNameSection" />
+
+
+    <TextView
+        android:id="@+id/tvSubSectionName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvWriteSubSectionName"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btAddSubSection" />
+
+    <EditText
+        android:id="@+id/etNameSubsection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvSubSectionName" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="320dp"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@id/btAddSection">
+
+        <LinearLayout
+            android:id="@+id/sectionConteiner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btAddSection" />
+    </ScrollView>
+
+
+    <Button
+        android:id="@+id/btAddEventSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_event"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+
+
+</android.support.constraint.ConstraintLayout>

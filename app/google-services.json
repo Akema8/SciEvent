@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "930699419874",
+    "firebase_url": "https://scievent-1a959.firebaseio.com",
+    "project_id": "scievent-1a959",
+    "storage_bucket": "scievent-1a959.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:930699419874:android:52170f44c0e3febb",
+        "android_client_info": {
+          "package_name": "com.example.margarita.scievent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "930699419874-hl418uu0fu04k8t72dce4lsnkj74rgcs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.margarita.scievent",
+            "certificate_hash": "aec3d6f153da2bdff99644043e800d0347a505fb"
+          }
+        },
+        {
+          "client_id": "930699419874-garv2oqnom0fio5qk93o2skvtn22mpsd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXmUVvpSc5exRrCabQ_8UHK4kWtP917sU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "930699419874-garv2oqnom0fio5qk93o2skvtn22mpsd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
